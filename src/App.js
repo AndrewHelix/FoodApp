@@ -12,7 +12,7 @@ import { Recipe } from "./components/Recipe";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/FoodApp'>
         <Header />
         <main className="container content">
           <Routes>
