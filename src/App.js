@@ -6,8 +6,8 @@ import { About } from "./pages/About";
 import { Home } from "./pages/Home";
 import { Contacts } from "./pages/Contacts";
 import { NotFound } from "./pages/NotFound";
-import { MealList } from "./components/MealList";
 import { Category } from "./pages/Category";
+import { Recipe } from "./components/Recipe";
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
             <Route path="/About" element={<About />} />
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/category/:name" element={<Category />}/>
+            <Route path="/meal/:idMeal" element={<Recipe />}/>
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

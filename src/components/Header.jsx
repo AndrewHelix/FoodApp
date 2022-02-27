@@ -8,7 +8,7 @@ function Header() {
           React Food
         </Link>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
-        <li>
+          <li>
             <Link to="/about">About</Link>
           </li>
           <li>

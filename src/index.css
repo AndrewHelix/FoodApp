@@ -30,3 +30,18 @@ nav {
 .card-content {
   flex-grow: 1;
 }
+
+.recipe-item {
+  margin-top: 15px;
+}
+
+img, iframe {
+  max-width: 100%;
+}
+
+iframe {
+  display: block;
+  width: 560px;
+  height: 315px;
+  margin: 15px auto 0 auto;
+}
